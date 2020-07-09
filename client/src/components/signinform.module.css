@@ -1,0 +1,55 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.slidein {
+    opacity: 25;
+    position: relative;
+    left: -50px;
+    -webkit-animation: slidein 0.35s forwards;
+    animation: slidein 0.35s forwards;
+    transition-timing-function: ease;
+}
+
+.slideout {
+    opacity: 25;
+    position: relative;
+    left: 50px;
+    -webkit-animation: slideout 0.25s forwards;
+    animation: slideout 0.25s forwards;
+    transition-timing-function: ease;
+}
+
+.slidedown {
+    opacity: 25;
+    position: relative;
+    top: -50px;
+    -webkit-animation: slidedown 0.25s forwards;
+    animation: slidedown 0.25s forwards;
+    transition-timing-function: ease;
+}
+
+@-webkit-keyframes slidein {
+    100% { left: 0; opacity: 100; }
+}
+
+@keyframes slidein {
+    100% { left: 0; opacity: 100; }
+}
+
+@-webkit-keyframes slideout {
+    100% { left: 0; opacity: 100; }
+}
+
+@keyframes slideout {
+    100% { left: 0; opacity: 100; }
+}
+
+@-webkit-keyframes slidedown {
+    100% { top: 0; opacity: 100; }
+}
+
+@keyframes slidedown {
+    100% { top: 0; opacity: 100; }
+}

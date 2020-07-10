@@ -7,4 +7,4 @@
 
 - Uses Tailwind CSS to simplify some CSS creation and deployment.
 
-**You can view a demonstation on https://xcal.dev/app/loginpage/**
+**You can view a demonstation on https://xcal.dev/app-loginpage**

@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-vector-icons": "^6.6.0",

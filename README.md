@@ -6,5 +6,3 @@
 - Uses a simple Nodemon server to "process" API requests using Express, and it sends back a single-digit response code to tell the front-end which status to display. 
 
 - Uses Tailwind CSS to simplify some CSS creation and deployment.
-
-**You can view a demonstation on https://xcal.dev/prj/loginpage**
